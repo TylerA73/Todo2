@@ -26,8 +26,6 @@ class AddBar extends Component{
 		this.setState({
 			value: event.target.value
 		});
-
-		console.log("Value: ", event.target.value);
 	}
 
 	render(){
